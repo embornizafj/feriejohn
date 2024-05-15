@@ -1,0 +1,105 @@
+:root {
+
+--bg1: #0bd4db;
+--BG2: rgb(44, 42, 42);
+--body: rgb(95, 86, 86);
+--brand: #F2B03B;
+--WHITE: rgb(156, 154, 150);
+--p: rgb(161, 150, 150);
+}
+
+body {
+    background-color: var(--bg1);
+}
+
+
+a{
+    text-decoration: none;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+    
+#banner{
+    background: url('https://img.freepik.com/free-vector/vintage-tattoos-colorful-seamless-pattern_225004-1537.jpg?t=st=1710735824~exp=1710739424~hmac=a9d265b4994ec3221053a968d71aef91b3ed0cfe867d2f31fc29e29a9cd640ae&w=826');
+    height: 100vh;
+    background-size: cover;
+}
+/* */
+.navbar{
+    background: linear-gradient(to botton, hsla(0, 2%, 17%, 0.829), rgba(44, 42, 42, 0.884))
+}
+
+.nabvar .nav-link:hover{
+    color: var(--bg3) !important;
+}
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+
+}
+   .btn-brand {
+background-color: var(--brand) ;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: (--brand);
+    border-color: var(--brand);
+}
+.icon-box-img{
+    width: 50%;
+}
+
+#services
+{
+background-color: rgb(173, 124, 165);
+}
+
+.btn-outline-brand {
+    background-color: rgb(230, 233, 232);
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--brand);
+    color: var(--bg1)
+}
+.card:hover{
+    background-color: #0bd4db;
+}
+
+.card:hover .card-tittle,
+.card:hover .card-text,
+.card:hover .btn {
+    color:rgb(209, 28, 155)
+}
+#cta {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* parallax effect */
+    background-attachment: fixed;
+     /* parallax effect / to remove to effect set to normal*/
+     background-image: url('https://img.freepik.com/free-vector/vintage-tattoos-colorful-seamless-pattern_225004-1537.jpg?t=st=1710735824~exp=1710739424~hmac=a9d265b4994ec3221053a968d71aef91b3ed0cfe867d2f31fc29e29a9cd640ae&w=826');
+     min-height: 70vh;
+}
+
+.Testimonials {
+    background-color: var(--p);
+    padding: 30px;
+}
+
+.Testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
